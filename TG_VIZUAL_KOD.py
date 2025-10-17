@@ -48,6 +48,16 @@ async def run_profile(firefox_profile_path):
         start_time = time.time()
 
 
+        proxies = [
+            {"server": "147.45.55.106:9903", "username": "E7R97T", "password": "NFAyHJ"},
+            {"server": "147.45.122.48:9908", "username": "E7R97T", "password": "NFAyHJ"},
+            {"server": "188.119.125.165:9881", "username": "E7R97T", "password": "NFAyHJ"},
+            {"server": "194.124.48.70:9756", "username": "E7R97T", "password": "NFAyHJ"},
+            {"server": "176.124.47.81:9071", "username": "E7R97T", "password": "NFAyHJ"},
+        ]
+
+        proxy = random.choice(proxies)
+
 
         global obshee_vremya
         async with async_playwright() as p:
@@ -65,6 +75,7 @@ async def run_profile(firefox_profile_path):
                 firefox_profile_path,
                 headless=True,
                 user_agent=user_agent,
+                proxy=proxy,
                 #proxy=random.choice(proxies)
             )
 
