@@ -1,0 +1,46 @@
+name: Bot
+on:
+  schedule:
+    - cron: '0 20 * * *'  # Запуск каждый день в 23:00 по московскому времени (UTC+3 - сдвиг 3 часа назад)
+    - cron: '0 9 * * *'   # каждый день в 12:00 по МСК (09:00 UTC)
+
+  workflow_dispatch:    # Чтобы можно было запускать вручную
+#on:
+#  push:
+#    branches: [main]
+
+jobs:
+  BOT:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install python3-venv
+        run: sudo apt-get update && sudo apt-get install -y python3-venv
+
+      - name: Create virtual environment
+        run: python -m venv venv
+
+      - name: Verify venv creation
+        run: ls -l venv/bin
+
+      - name: Install dependencies
+        run: |
+          source venv/bin/activate
+          pip install --upgrade pip setuptools wheel cython
+          pip install -r requirements.txt --no-deps
+          pip install opencv-python
+      - name: Install Playwright browsers (including Firefox)
+        run: |
+          source venv/bin/activate
+          python -m playwright install firefox
+      - name: Run bot script
+        run: |
+          source venv/bin/activate
+          python TG_VIZUAL_KOD.py
+
