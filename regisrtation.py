@@ -1,6 +1,6 @@
 import random
 import time
-from spiski_klichek import *
+#from spiski_klichek import *
 import openpyxl
 
 from func_dir_foto import *

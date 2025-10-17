@@ -1,6 +1,6 @@
 import os
 import shutil
-from selenium.webdriver.common.by import By
+#from selenium.webdriver.common.by import By
 import time
 def copy_foto_dir(path):
     # Путь к папке-источнику, откуда будут копироваться изображения

@@ -10,7 +10,6 @@ import pandas as pd
 from func import *
 from playwright.async_api import async_playwright
 from fake_useragent import UserAgent  # Assuming you have this for random user agent
-from selenium.webdriver.common.action_chains import ActionChains
 from func import *
 from telethon import TelegramClient, events
 
