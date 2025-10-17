@@ -5,7 +5,7 @@ import random
 import requests
 from playwright.async_api import async_playwright
 from fake_useragent import UserAgent
-token = os.getenv("TOKEN")
+token = os.getenv('TELEGRAM_TOKEN')
 async def click_on_anchor_url(page):
     try:
         # Подождем, пока элементы будут видны
@@ -127,6 +127,7 @@ async def search_element_xpath_and_enter_text(page, xpath_selector, text):
 
 
 def send_msg(photo):
+    global token
     token = token
     chat_id = "970307084"
     url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + photo
@@ -134,6 +135,7 @@ def send_msg(photo):
     return results
 
 def magnit_kupon(photo):
+    global token
     chat_id = "970307084"
     token = token
     files = {'photo': open(photo, 'rb')}
