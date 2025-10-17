@@ -63,7 +63,7 @@ async def run_profile(firefox_profile_path):
 
             context = await p.firefox.launch_persistent_context(
                 firefox_profile_path,
-                headless=False,
+                headless=True,
                 user_agent=user_agent,
                 #proxy=random.choice(proxies)
             )
