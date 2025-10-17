@@ -13,7 +13,7 @@ jobs:
   BOT:
     runs-on: ubuntu-latest
     env:
-      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}   # используем секрет из настроек репо
+      TELEGRAM_TOKEN: ${{ TOKEN }}   # используем секрет из настроек репо
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
@@ -42,6 +42,5 @@ jobs:
       - name: Run bot script
         run: |
           source venv/bin/activate
-          python TG_VIZUAL_KOD.py
           python TG_VIZUAL_KOD.py
 
