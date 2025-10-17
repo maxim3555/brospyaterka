@@ -13,7 +13,7 @@ jobs:
   BOT:
     runs-on: ubuntu-latest
     env:
-      TELEGRAM_TOKEN: ${{ TOKEN }}   # используем секрет из настроек репо
+      TOKEN: ${{ secrets.TOKEN }}   # используем секрет из настроек репо
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
