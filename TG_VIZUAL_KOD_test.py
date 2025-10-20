@@ -29,7 +29,7 @@ def actual_none_profil():
 
 book = openpyxl.open(r"numb.xlsx")
 list1 = book.active
-schet_profil =3
+schet_profil =1
 obshee_vremya=0
 
 
@@ -75,7 +75,7 @@ async def run_profile(firefox_profile_path):
                 firefox_profile_path,
                 headless=False,
                 user_agent=user_agent,
-                proxy=proxy,
+                #proxy=proxy,
                 #proxy=random.choice(proxies)
             )
 
@@ -84,7 +84,7 @@ async def run_profile(firefox_profile_path):
 
 
             await page.goto('https://gp.x5.ru/luckydice')
-            time.sleep(3555)
+            time.sleep(35554)
 #нажать на кубик
             await search_element_xpath(page, '//html/body/div/div/div/button[2]/picture', 5)
             await search_element_xpath(page, '//html/body/div/div/div[1]/div[1]/div[2]/div/button/picture', 5)

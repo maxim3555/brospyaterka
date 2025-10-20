@@ -1,0 +1,1937 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Пользовательское соглашение</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+        h1 {
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        p {
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+            margin: 0pt;
+        }
+        li {
+            display: block;
+        }
+        #l1 {
+            padding-left: 0pt;
+            counter-reset: c1 1;
+        }
+        #l1 > li > *:first-child:before {
+            counter-increment: c1;
+            content: counter(c1, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l1 > li:first-child > *:first-child:before {
+            counter-increment: c1 0;
+        }
+        #l2 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l2 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l2 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l3 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l3 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l3 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l4 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l4 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l4 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l5 {
+            padding-left: 0pt;
+            counter-reset: c3 1;
+        }
+        #l5 > li > *:first-child:before {
+            counter-increment: c3;
+            content: counter(c1, decimal) "." counter(c2, decimal) "."
+            counter(c3, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l5 > li:first-child > *:first-child:before {
+            counter-increment: c3 0;
+        }
+        #l6 {
+            padding-left: 0pt;
+            counter-reset: c3 1;
+        }
+        #l6 > li > *:first-child:before {
+            counter-increment: c3;
+            content: counter(c1, decimal) "." counter(c2, decimal) "."
+            counter(c3, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l6 > li:first-child > *:first-child:before {
+            counter-increment: c3 0;
+        }
+        #l7 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l7 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l7 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l8 {
+            padding-left: 0pt;
+            counter-reset: c3 1;
+        }
+        #l8 > li > *:first-child:before {
+            counter-increment: c3;
+            content: counter(c1, decimal) "." counter(c2, decimal) "."
+            counter(c3, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l8 > li:first-child > *:first-child:before {
+            counter-increment: c3 0;
+        }
+        #l9 {
+            padding-left: 0pt;
+            counter-reset: d1 1;
+        }
+        #l9 > li > *:first-child:before {
+            counter-increment: d1;
+            content: counter(d1, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l9 > li:first-child > *:first-child:before {
+            counter-increment: d1 0;
+        }
+        #l10 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l10 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l10 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l11 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l11 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l11 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l12 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l12 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l12 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+        #l13 {
+            padding-left: 0pt;
+            counter-reset: c3 1;
+        }
+        #l13 > li > *:first-child:before {
+            counter-increment: c3;
+            content: counter(c1, decimal) "." counter(c2, decimal) "."
+            counter(c3, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l13 > li:first-child > *:first-child:before {
+            counter-increment: c3 0;
+        }
+        #l14 {
+            padding-left: 0pt;
+            counter-reset: c3 1;
+        }
+        #l14 > li > *:first-child:before {
+            counter-increment: c3;
+            content: counter(c1, decimal) "." counter(c2, decimal) "."
+            counter(c3, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l14 > li:first-child > *:first-child:before {
+            counter-increment: c3 0;
+        }
+        #l15 {
+            padding-left: 0pt;
+            counter-reset: c2 1;
+        }
+        #l15 > li > *:first-child:before {
+            counter-increment: c2;
+            content: counter(c1, decimal) "." counter(c2, decimal) ". ";
+            color: black;
+            font-family: "Times New Roman", serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        #l15 > li:first-child > *:first-child:before {
+            counter-increment: c2 0;
+        }
+    </style>
+</head>
+<body>
+<h1 style="padding-top: 3pt; text-indent: 0pt; text-align: center">
+    Пользовательское соглашение X5ID («Соглашение»)
+</h1>
+<p style="padding-top: 11pt; text-indent: 0pt; text-align: left"><br /></p>
+<p style="padding-left: 5pt; text-indent: 0pt; text-align: left">
+    Настоящее Соглашение представляет собой предложение Пользователю
+    использовать и управлять X5ID на предусмотренных в нем условиях.
+</p>
+<ol id="l1">
+    <li title="1.">
+        <h1
+                style="
+            padding-top: 11pt;
+            padding-left: 41pt;
+            text-indent: -24pt;
+            padding-right: 56pt;
+            text-align: left;
+          "
+        >
+            Термины и определения
+        </h1>
+        <ol id="l2">
+            <li title="1.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Группа лиц Х5</b>» – юридические лица, входящие в группу лиц,
+                    находящихся под прямым и/или косвенным контролем Компании, а также
+                    компании, входящие в перечень юридических лиц, отчетность которых
+                    используется при подготовке консолидированной финансовой
+                    отчетности Компании по международным стандартам финансовой
+                    отчетности (МСФО).
+                </p>
+            </li>
+            <li title="1.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Компания</b>» – Публичное акционерное общество «Корпоративный
+                    Центр Икс 5», ИНН 9722079341, 109029, город Москва, ул. Средняя
+                    Калитниковская, д. 28, стр. 4, оказывающее Пользователю услуги по
+                    созданию Х5ID и предоставлению доступа к Сайту и Х5ID, являющееся
+                    владельцем и оператором продукта Х5ID.
+                </p>
+            </li>
+            <li title="1.3.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Партнеры</b>» – юридические лица, сервисы которых, включая
+                    сайты и/или мобильные приложения, предусматривают возможность
+                    аутентификации и/или заполнения сведений о Пользователе на
+                    основании полученных от Компании данных Пользователей.
+                </p>
+            </li>
+            <li title="1.4.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Пользователь</b>», «<b>Вы</b>» – физическое лицо, использующее
+                    услуги Компании по созданию Х5ID и предоставлению доступа к Сайту
+                    и Х5ID на условиях настоящего Соглашения. Соглашаясь с условиями
+                    настоящего Соглашения, Вы подтверждаете свою правоспособность и
+                    свою дееспособность. Сайт и некоторые Сервисы X5ID предназначены
+                    только для лиц старше 18 лет.
+                </p>
+            </li>
+            <li title="1.5.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Сайт</b>» – сайт Х5ID <a href="https://x5id.ru/" target="_blank">https://x5id.ru/</a>,
+                    разработчиком, правообладателем и администратором которого
+                    является Компания, который предоставляет возможность Пользователю
+                    воспользоваться услугами Компании - зарегистрироваться и управлять
+                    Х5ID.
+                </p>
+            </li>
+            <li title="1.6.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Сервисы X5ID</b>» – отдельные сервисы, включая сайты,
+                    мобильные приложения, в которых Пользователь есть возможность
+                    регистрации и/или авторизации Пользователя через X5ID, включая
+                    сервисы Партнеров. Перечень Сервисов X5ID размещен по ссылке
+                    <a href="https://x5id.ru/docs/Spisok_servisov.pdf" target="_blank">https://x5id.ru/docs/Spisok_servisov.pdf</a> и включает Сервисы
+                    Компании, ТС и иных компаний Группы лиц Х5 (совместно – «Сервисы
+                    X5ID Группы»), так и Сервисы иных Партнеров.
+                </p>
+            </li>
+            <li title="1.7.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>Соглашение</b>» – настоящее Соглашение между Пользователем и
+                    Компанией, устанавливающее порядок оказания Компанией услуг
+                    Пользователю, в том числе, права и обязанности Компании и
+                    Пользователя в части использования Сайта и X5ID, со всеми
+                    изменениями и дополнениями к нему, размещенное в сети Интернет по
+                    адресу:
+                    <a href="https://x5id.ru/docs/Polzovatelskoe_soglashenie.pdf" target="_blank">https://x5id.ru/docs/Polzovatelskoe_soglashenie.pdf</a>.
+
+                </p>
+            </li>
+            <li title="1.8.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>ТС</b>» – торговые сети «Перекресток» (АО «ТД Перекресток»,
+                    ООО «Развитие малых форматов») и «Пятерочка» (ООО «Агроторг», ООО
+                    «Агроаспект», ООО
+                </p>
+                <p
+                        style="padding-left: 41pt; padding-right: 56pt; text-indent: 0pt; text-align: justify"
+                >
+                    «Копейка-Москва»), а также иные юридические лица, которые
+                    осуществляют управление и организацию деятельности таких торговых
+                    сетей. ТС являются операторами программ лояльности: торговая сеть
+                    «Перекресток» - программа
+                </p>
+                <p
+                        style="
+                padding-top: 3pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: 0pt;
+                text-align: justify;
+              "
+                >
+                    лояльности «Клуб Перекресток», торговая сеть «Пятерочка» -
+                    программа лояльности «Выручай-карта»; ТС совместно с Компанией,
+                    ООО «Гастрономия», ООО «Онлайн-гипермаркет», ООО «Копейка-Москва»
+                    являются операторами единой программы лояльности Х5 Клуб, согласно
+                    действующим правилам программы, размещенным на сайте x5club.ru
+                    («Х5 Клуб»).
+                </p>
+            </li>
+            <li title="1.9.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    «<b>X5ID</b>» – уникальный аккаунт Пользователя для регистрации
+                    и/или авторизации на Сайте и в Сервисах X5ID.
+                </p>
+            </li>
+            <li title="1.10.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    В случае использования в Соглашении терминов, не определенных в
+                    настоящем разделе Соглашения, толкование такого термина
+                    производится в соответствии с текстом настоящего Соглашения. В
+                    случае отсутствия однозначного толкования термина следует
+                    руководствоваться толкованием термина, определенным
+                    законодательством РФ, а также сложившимся в сети Интернет.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="2.">
+        <h1
+                style="
+            padding-top: 12pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Общие положения
+        </h1>
+        <ol id="l3">
+            <li title="2.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Регистрируясь в любом из Сервисов Х5ID с использованием Х5ID или
+                    на Сайте, Вы подтверждаете, что настоящее Соглашение было Вами
+                    прочитано, условия его Вам понятны, и Вы выражаете свое согласие с
+                    настоящим Соглашением в полном объеме, без исключений и оговорок,
+                    и обязуетесь соблюдать его условия. Принимая условия настоящего
+                    Соглашения в ресурсах сервиса лояльности Апельсин, Вам создается
+                    X5ID для целей участия в данном сервисе.
+                </p>
+            </li>
+            <li title="2.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Если Вы не принимаете условия настоящего Соглашения, Вы не можете
+                    использовать Сайт и Сервисы Х5ID, если иное не предусмотрено
+                    соответствующим Сервисом Х5ID. Во избежание сомнений, принятие
+                    настоящего Соглашения является обязательным условием для
+                    использования Сервисов Х5ID Группы.
+                </p>
+            </li>
+            <li title="2.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания оставляет за собой право изменять, полностью или
+                    частично, условия настоящего Соглашения. Компания информирует
+                    Пользователей об изменении условий Соглашения путем размещения
+                    новой редакции на Сайте. Продолжая использовать Сайт, Сервисы
+                    Х5ID, Вы принимаете действующую редакцию Соглашения.
+                </p>
+            </li>
+            <li title="2.4.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компании принадлежит исключительное право на Сайт как составное
+                    произведение. Объекты интеллектуальной собственности, используемые
+                    в рамках Сайта (в частности, изображения, текстовые, аудио- и\или
+                    видеоматериалы), также являются предметом исключительных прав
+                    Компании или используются ей на законных основаниях.
+                </p>
+            </li>
+            <li title="2.5.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    С учетом положений настоящего Соглашения, Компания предоставляет
+                    Пользователю неисключительное, несублицензируемое и непередаваемое
+                    право получать доступ к Сайту и использовать его исключительно в
+                    соответствии с настоящим Соглашением в личных некоммерческих
+                    целях.
+                </p>
+            </li>
+            <li title="2.6.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь не вправе изменять Сайт, изучать, исследовать или
+                    испытывать функционирование Сайта в целях определения идей и
+                    принципов, лежащих в основе любого элемента Сайта, в том числе, но
+                    не ограничиваясь, перерабатывать, модифицировать,
+                    реконструировать, декомпилировать и дизассемблировать,
+                    воспроизводить и преобразовывать объектный код в исходный текст
+                    или поручать иным лицам осуществить эти действия.
+                </p>
+            </li>
+            <li title="2.7.">
+                <p
+                        style="
+                padding-top: 3pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания предоставляет Пользователю возможность ознакомиться с
+                    содержанием Сайта, оставлять комментарии, а также иные
+                    возможности, предусмотренные на Сайте. Использование Пользователем
+                    всех существующих на данный момент функций Сайта, а также функций,
+                    добавленных на Сайт в будущем, регулируется настоящим Соглашением.
+                </p>
+            </li>
+            <li title="2.8.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания вправе устанавливать ограничения использования Сайта в
+                    зависимости от региона Пользователя. Введение ограничений
+                    обосновано объективными условиями деятельности Компании.
+                    Применение любых технических и программных методов обхода данных
+                    ограничений запрещено. Положения настоящего Соглашения,
+                    регулирующие недоступные (ограниченные) для Пользователя функции
+                    Сайта, не применяются до тех пор, пока Пользователю такие функции
+                    не станут доступны в явном виде. Информация о доступности
+                    отдельных функций Сайта размещается в Сайте.
+                </p>
+            </li>
+            <li title="2.9.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Обработка персональных данных Пользователя осуществляется в объеме
+                    и для целей заключения Соглашения, предоставления доступа и
+                    регистрации на Сайте и использования функциональных возможностей
+                    Сайта в соответствии с и на основании Соглашения, использования
+                    Сервисов X5ID, включая передачу данных Пользователя Партнерам для
+                    заполнения по инициативе Пользователя данных о Пользователе и/или
+                    аутентификации Пользователя в Сервисах X5ID Партнеров, а также в
+                    случае использования Сервиса X5ID Партнера для получения
+                    персональных данных Пользователя от таких Партнеров в целях
+                    составления единого персонализированного профиля Пользователя и
+                    обеспечения возможности эффективного использования
+                    функциональности X5ID Пользователем. Компания вправе обрабатывать
+                    персональные данные Пользователя для улучшения пользовательского
+                    опыта, качества обслуживания и работы Сайта, предоставления
+                    Пользователю персонифицированных предложений, дополнительных
+                    возможностей и услуг, в том числе посредством анализа
+                    пользовательских данных, статистических, аналитических и иных
+                    исследований взаимодействия Пользователя с Компанией и третьими
+                    лицами. В рамках указанной деятельности Компания вправе получать
+                    персональные данные от третьих лиц и поручать им обработку
+                    персональных данных на основании соответствующего договора,
+                    устанавливающего обязанности по соблюдению конфиденциальности и
+                    обеспечению безопасности персональных данных. Кроме этого,
+                    обработка персональных данных Пользователя осуществляется в объеме
+                    и для целей, обозначенных в согласии на обработку персональных
+                    данных для X5ID.
+                </p>
+            </li>
+            <li title="2.10.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Условия обработки персональных данных Пользователя указаны в
+                    Политике Конфиденциальности X5ID, размещенной по ссылке
+                    <a href="https://x5id.ru/docs/Polzovatelskoe_soglashenie.pdf" target="_blank">https://x5id.ru/docs/Polzovatelskoe_soglashenie.pdf</a> .
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="3.">
+        <h1
+                style="
+            padding-top: 11pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            X5ID
+        </h1>
+        <ol id="l4">
+            <li title="3.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    X5ID является ключевым инструментом Сервисов X5ID. Цель создания
+                    X5ID заключается в обеспечении Пользователю максимально удобного
+                    пользовательского опыта.
+                </p>
+            </li>
+            <li title="3.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: left;
+              "
+                >
+                    X5ID предоставляет Пользователям следующие возможности и
+                    преимущества:
+                </p>
+                <ol id="l5">
+                    <li title="3.2.1.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            Упрощенная регистрация или авторизация Пользователей в
+                            Сервисах X5ID,
+                        </p>
+                    </li>
+                    <li title="3.2.2.">
+                        <p
+                                style="
+                    padding-top: 3pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: left;
+                  "
+                        >
+                            Безопасное управление регистрационными данными через личный
+                            кабинет единого аккаунта Пользователя в Сервисах X5ID,
+                        </p>
+                    </li>
+                    <li title="3.2.3.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            Создание единого персонализированного профиля Пользователя,
+                        </p>
+                    </li>
+                    <li title="3.2.4.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            Участие в бонусных программах Сервисов X5ID,
+                        </p>
+                    </li>
+                    <li title="3.2.5.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            Выпуск карты программы лояльности Х5 Клуб, сервиса лояльности
+                            «Апельсин»,
+                        </p>
+                    </li>
+                    <li title="3.2.6.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            Приобретение «ПАКЕТА» от Х5 на условиях Пользовательского
+                            соглашения
+                        </p>
+                        <p
+                                style="padding-left: 11pt; padding-right: 56pt; text-indent: 0pt; text-align: left"
+                        >
+                            <a
+                                    href="http://x5paket.ru/"
+                                    style="
+                      color: black;
+                      font-family: 'Times New Roman', serif;
+                      font-style: normal;
+                      font-weight: normal;
+                      text-decoration: none;
+                      font-size: 12pt;
+                    "
+                                    target="_blank"
+                            >«ПАКЕТ» от Х5, размещенного по ссылке </a
+                            ><a href="http://x5paket.ru/" target="_blank">http://x5paket.ru/</a> .
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li title="3.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Для получения преимуществ Пользователь дает свое согласие на
+                    создание единого аккаунта X5ID для всех Сервисов X5ID.
+                </p>
+            </li>
+            <li title="3.4.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Создание X5ID требуется для регистрации в любом из Сервисов X5ID
+                    Группы. Перечень Сервисов X5ID Компания обновляет и актуализирует
+                    по мере подключения новых. Компания может изменять перечень
+                    Сервисов X5ID в порядке, установленном настоящим Соглашением.
+                </p>
+            </li>
+            <li title="3.5.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь указывает обязательные, актуальные, достоверные
+                    данные, необходимые для регистрации в Сервисе X5ID, включая имя,
+                    фамилию, дату рождения, номер мобильного телефона, адрес
+                    электронной почты. Отдельные Сервисы X5ID могут запрашивать у
+                    Пользователя дополнительную информацию, необходимую для
+                    регистрации в таких Сервисах X5ID.
+                </p>
+            </li>
+            <li title="3.6.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Для целей оказания услуг Пользователю, в том числе для
+                    формирования единого персонализированного профиля Пользователя и
+                    предоставления Пользователю указанных выше возможностей и
+                    преимуществ, Пользователь предоставляет Компании или Компания
+                    получает иным образом с учетом положений действующего
+                    законодательства, персональные данные Пользователя дополнительно к
+                    данным, необходимым для регистрации в Сервисе X5ID, в том числе
+                    включая пол, семейное положение, IP-адрес, Mac-адрес, гео-позиция,
+                    IDFA, Google Advertising ID, данные, получаемые посредством
+                    файлов-cookie, данные об использовании Сайта, данные о посещении
+                    торговых объектов ТС, адрес доставки товаров, данные о совершенных
+                    покупках, данные карты лояльности и др.
+                </p>
+            </li>
+            <li title="3.7.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Использование Сервисов X5ID Пользователем может быть ограничено в
+                    зависимости от функционала конкретного Сервиса X5ID.
+                </p>
+            </li>
+            <li title="3.8.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: left;
+              "
+                >
+                    Пользователю запрещается:
+                </p>
+                <ol id="l6">
+                    <li title="3.8.1.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            регистрироваться в качестве Пользователя от имени или вместо
+                            другого лица;
+                        </p>
+                    </li>
+                    <li title="3.8.2.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            предоставлять Компании недостоверную, неполную или неточную
+                            информацию;
+                        </p>
+                    </li>
+                    <li title="3.8.3.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: left;
+                  "
+                        >
+                            использовать программное обеспечение и осуществлять действия,
+                            направленные на нарушение нормального функционирования Сайта и
+                            Сервиса X5ID;
+                        </p>
+                    </li>
+                    <li title="3.8.4.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: left;
+                  "
+                        >
+                            загружать, хранить, публиковать, распространять и
+                            предоставлять доступ или иным образом использовать вирусы,
+                            трояны и другие вредоносные программы;
+                        </p>
+                    </li>
+                    <li title="3.8.5.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: left;
+                  "
+                        >
+                            любым способом, в том числе, но не ограничиваясь, путем
+                            обмана, злоупотребления доверием, взлома, пытаться получить
+                            доступ к профилю другого Пользователя.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li title="3.9.">
+                <p
+                        style="
+                padding-top: 3pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь может самостоятельно удалить аккаунт X5ID на Сайте
+                    при наличии такой функциональной возможности или обратиться на
+                    горячую линию любого из Сервисов X5ID Группы и воспользоваться
+                    процедурой удаления X5ID. После удаления аккаунта Пользователь
+                    отключается от всех предоставленных ему ранее прав пользования
+                    Сервисами X5ID Группы. Последствия удаления аккаунта Пользователя
+                    в иных Сервисах X5ID определяются правилами и условиями
+                    использования соответствующих Сервисов X5ID.
+                </p>
+            </li>
+            <li title="3.10.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания вправе в случае нарушения Пользователем настоящего
+                    Соглашения заблокировать/удалить аккаунт Пользователя в Сервисах
+                    X5ID и/или приостановить, ограничить или прекратить доступ
+                    Пользователя к Сервисам X5ID, с предварительным уведомлением или
+                    без такового, однако Компания приложит все возможные усилия для
+                    исключения подобных ситуаций. Приостановление, ограничение или
+                    прекращение доступа Пользователя к Сервисам X5ID (в том числе, в
+                    силу самостоятельного удаления аккаунта Пользователем), влечет за
+                    собой невозможность использования Сервисов X5ID, а также, в случае
+                    прекращения доступа - удаление персональных данных Пользователя,
+                    содержащихся в едином персонализированном профиле Пользователя, в
+                    течение 60 календарных дней, за исключением случаев, когда
+                    хранение или иная обработка персональных данных Пользователя
+                    обязательны на основании закона или предусмотрено иными
+                    соглашениями с Пользователем или иным законным основанием для
+                    обработки.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="4.">
+        <h1
+                style="
+            padding-top: 12pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Регистрация и авторизация на Сайте
+        </h1>
+        <ol id="l7">
+            <li title="4.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Для регистрации на Сайте Пользователь создает X5ID:
+                </p>
+                <ol id="l8">
+                    <li title="4.1.1.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            вводит номер мобильного телефона и проходит процедуру
+                            аутентификации (верификации) номера телефона по одноразовому
+                            коду:
+                        </p>
+                        <ol id="l9">
+                            <li title="1.">
+                                <p
+                                        style="
+                        padding-top: 11pt;
+                        padding-left: 41pt;
+                        padding-right: 56pt;
+                        text-indent: -36pt;
+                        text-align: justify;
+                      "
+                                >
+                                    одноразовый код направляется по СМС автоматически и
+                                    действует в течение 1 минуты с его отправки;
+                                </p>
+                            </li>
+                            <li title="2.">
+                                <p
+                                        style="
+                        padding-top: 11pt;
+                        padding-left: 41pt;
+                        padding-right: 56pt;
+                        text-indent: -36pt;
+                        text-align: justify;
+                      "
+                                >
+                                    Пользователь вводит одноразовый код из СМС в
+                                    соответствующее поле формы:
+                                </p>
+                            </li>
+                        </ol>
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 34pt;
+                    padding-right: 56pt;
+                    text-indent: 0pt;
+                    text-align: justify;
+                  "
+                        >
+                            при совпадении отправленного и введенного кода аутентификация
+                            (верификация) признается успешно пройденной – устанавливается
+                            принадлежность номера телефона определенному Пользователю;
+                        </p>
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 34pt;
+                    padding-right: 56pt;
+                    text-indent: 0pt;
+                    text-align: justify;
+                  "
+                        >
+                            при несовпадении отправленного и введенного кода
+                            аутентификация (верификация) признается неуспешной,
+                            Пользователь повторяет действия согласно п.4.1.1. Повторная
+                            попытка запросить код аутентификации (верификации) возможна не
+                            ранее, чем через 30 секунд с момента отправки предыдущего
+                            кода. На один номер телефона в рамках одной пользовательской
+                            сессии можно отправить не более 5 кодов аутентификации
+                            (верификации) после чего происходит блокировка Сайта.
+                            Одновременно для верификации одного номера телефона может быть
+                            только один валидный код аутентификации (верификации).
+                        </p>
+                    </li>
+                    <li title="4.1.2.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            заполняет обязательные поля регистрационной формы на Сайте:
+                            имя, фамилия, дата рождения, адрес электронной почты для
+                            направления чеков в электронном виде,
+                        </p>
+                    </li>
+                    <li title="4.1.3.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            предоставляет Единое согласие на обработку персональных данных
+                            для X5ID путем проставления галочки в соответствующем окне
+                            выбора. Без предоставления такого согласия Пользователь не
+                            сможет использовать Сайт;
+                        </p>
+                    </li>
+                    <li title="4.1.4.">
+                        <p
+                                style="
+                    padding-top: 3pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            подтверждает присоединение к настоящему Соглашению;
+                        </p>
+                    </li>
+                    <li title="4.1.5.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 32pt;
+                    padding-right: 56pt;
+                    text-indent: -27pt;
+                    text-align: left;
+                  "
+                        >
+                            создает X5ID путем нажатия кнопки «Создать».
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li title="4.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    После совершения вышеуказанных действий, X5ID Пользователя
+                    считается созданным и регистрация на Сайте успешной.
+                </p>
+            </li>
+            <li title="4.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Если Пользователь уже имеет Х5ID и случае повторного входа на Сайт
+                    Пользователь авторизуется на Сайте через X5ID, путем ввода (i)
+                    номера мобильного телефона и
+                </p>
+                <p style="padding-left: 41pt; padding-right: 56pt; text-indent: 0pt; text-align: left">
+                    (ii) пароля, указанного при регистрации, либо одноразового пароля,
+                    полученного по СМС.
+                </p>
+                <p
+                        style="
+                padding-top: 10pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: 0pt;
+                text-align: justify;
+              "
+                >
+                    При первом входе на Сайт Пользователя, уже имеющего Х5ID,
+                    Пользователю будет предложено проверить данные, внесенные в его
+                    регистрационную форму, подтвердить их актуальность и
+                    присоединиться к условиям настоящего Соглашения.
+                </p>
+            </li>
+            <li title="4.4.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    В случае изменения номера телефона или иных регистрационных данных
+                    Пользователь обязан в срок не более 3 рабочих дней с даты их
+                    изменения самостоятельно скорректировать свои данные на Сайте при
+                    наличии такой функциональной возможности или обратиться на горячую
+                    линию любого из Сервисов X5ID за помощью и воспользоваться
+                    процедурой изменения регистрационных данных.
+                </p>
+                <p style="text-indent: 0pt; text-align: left"><br /></p>
+            </li>
+            <li title="4.5.">
+                <p
+                        style="
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь обязуется обеспечивать конфиденциальность логина и
+                    пароля X5ID в течение всего срока действия Соглашения, в
+                    частности, не сообщать их третьим лицам. В случае нарушения
+                    конфиденциальности логина и пароля X5ID Пользователь обязуется
+                    немедленно сообщить об этом Компании. Все действия, осуществленные
+                    с использованием логина и пароля X5ID Пользователя, предполагаются
+                    осуществленными Пользователем. Компания не несет ответственности
+                    за несанкционированное использование регистрационных данных
+                    Пользователя третьими лицами в случае неисполнения Пользователем
+                    обязанностей, установленных п. 4.5 Соглашения.
+                </p>
+                <p style="text-indent: 0pt; text-align: left"><br /></p>
+            </li>
+            <li title="4.6.">
+                <p
+                        style="
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь самостоятельно несет ответственность перед третьими
+                    лицами и Партнерами за свои действия, связанные с использованием
+                    Сайта, Сервисов X5ID, в том числе, если такие действия приведут к
+                    нарушению прав и законных интересов третьих лиц, а также за
+                    соблюдение законодательства при использовании Сайта, Сервисов
+                    X5ID. Пользователь не вправе использовать более одной учетной
+                    записи X5ID, выдавать себя за другого человека, вводить
+                    пользователей или Компанию в заблуждение относительно свойств и
+                    характеристик каких-либо субъектов или объектов.
+                </p>
+            </li>
+            <li title="4.7.">
+                <p
+                        style="
+                padding-top: 13pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    При регистрации в Сервисах X5ID, за исключением Сервисов
+                    Партнеров, Пользователю предоставляется возможность выпустить
+                    виртуальную карту программы лояльности Х5 Клуб и присоединиться к
+                    сервису лояльности
+                </p>
+                <p
+                        style="padding-left: 41pt; padding-right: 56pt; text-indent: 0pt; text-align: justify"
+                >
+                    «Апельсин». Пользователь подтверждает присоединение к правилам
+                    программы лояльности Х5 Клуб, условиям сервиса лояльности
+                    «Апельсин» путем проставления галочки в соответствующем окне
+                    выбора.
+                </p>
+                <p style="text-indent: 0pt; text-align: left"><br /></p>
+            </li>
+            <li title="4.8.">
+                <p
+                        style="
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Регистрация Пользователя в Сервисах X5ID Партнеров осуществляется
+                    по правилам, установленным Партнерами. Принятие настоящего
+                    Соглашения Пользователем является обязательным условием, если при
+                    такой регистрации используется X5ID.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="5.">
+        <h1
+                style="
+            padding-top: 3pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Контент Сайта
+        </h1>
+        <ol id="l10">
+            <li title="5.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Контент Сайта является объектами исключительных прав Компании,
+                    Пользователей и других правообладателей.
+                </p>
+            </li>
+            <li title="5.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Использование Контента Сайта возможно только в рамках функционала
+                    Сайта. Контент Сайта не может быть использован иным образом без
+                    предварительного разрешения правообладателя. Под использованием
+                    подразумеваются, в том числе: воспроизведение, копирование,
+                    переработка, распространение на любой основе, отображение во
+                    фрейме и т.д. Исключение составляют случаи, прямо предусмотренные
+                    законодательством РФ, настоящим Соглашением или условиями
+                    Партнеров.
+                </p>
+            </li>
+            <li title="5.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Использование Пользователем Контента Сайта для личного
+                    некоммерческого использования, допускается при условии сохранения
+                    всех знаков охраны авторского права, смежных прав, товарных
+                    знаков, других уведомлений об авторстве, сохранения имени (или
+                    псевдонима) автора/наименования правообладателя в неизменном виде,
+                    сохранении соответствующего объекта в неизменном виде. Исключение
+                    составляют случаи, прямо предусмотренные законодательством РФ,
+                    настоящим Соглашением или условиями Партнеров.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="6.">
+        <h1
+                style="
+            padding-top: 12pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Карты программы лояльности Х5 Клуб
+        </h1>
+        <ol id="l11">
+            <li title="6.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь через X5ID выпускает новую или использует
+                    существующую карту программы лояльности Х5 Клуб.
+                </p>
+            </li>
+            <li title="6.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Если Пользователь является участником программы лояльности и его
+                    номер телефона, по которому он зарегистрировался на Сайте,
+                    привязан к его картам, номера карт Пользователя автоматически
+                    отображаются в его личном кабинете на Сайте.
+                </p>
+            </li>
+            <li title="6.3.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Если Пользователь не является участником программы лояльности, он
+                    по ссылке через Сайт переходит на сайт программы лояльности либо
+                    на Сайте, при наличии на Сайте соответствующего функционала,
+                    выпускает виртуальную карту участника программы лояльности Х5
+                    Клуб. Выпуская виртуальную карту, Пользователь ознакамливается и
+                    принимает правила программы лояльности Х5 Клуб.
+                </p>
+            </li>
+            <li title="6.4.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Пользователь получает баллы и другие привилегии, если это
+                    предусмотрено проводимой на Сайте акцией, в соответствии с
+                    программой лояльности Х5 Клуб. Списание баллов через Сайт не
+                    производится.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="7.">
+        <h1
+                style="
+            padding-top: 11pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Использование Сайта
+        </h1>
+        <ol id="l12">
+            <li title="7.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                text-indent: -36pt;
+                padding-right: 56pt;
+                text-align: justify;
+              "
+                >
+                    Для использования Сайта необходимо подключение к сети Интернет.
+                    Пользователь самостоятельно получает и оплачивает подключение на
+                    условиях и по тарифам своего оператора связи или провайдера
+                    доступа к сети Интернет. Компания не несет ответственность за
+                    возможные неблагоприятные последствия для Пользователя, вызванные
+                    невозможностью подключения к сети Интернет.
+                </p>
+            </li>
+            <li title="7.2.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: left;
+              "
+                >
+                    Пользователь не вправе при использовании Сайта:
+                </p>
+                <ol id="l13">
+                    <li title="7.2.1.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            несанкционированно собирать и хранить персональные данные
+                            других лиц;
+                        </p>
+                    </li>
+                    <li title="7.2.2.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 35pt;
+                    padding-right: 56pt;
+                    text-indent: -30pt;
+                    text-align: left;
+                  "
+                        >
+                            нарушать нормальную работу Сайта;
+                        </p>
+                    </li>
+                    <li title="7.2.3.">
+                        <p
+                                style="
+                    padding-top: 3pt;
+                    padding-left: 41pt;
+                    padding-right: 56pt;
+                    text-indent: -36pt;
+                    text-align: justify;
+                  "
+                        >
+                            содействовать действиям, направленным на нарушение ограничений
+                            и запретов, налагаемых Соглашением;
+                        </p>
+                    </li>
+                    <li title="7.2.4.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            размещать на Сайте информацию, распространение которой в
+                            Российской Федерации запрещено или ограничено;
+                        </p>
+                    </li>
+                    <li title="7.2.5.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 41pt;
+                    padding-right: 56pt;
+                    text-indent: -36pt;
+                    text-align: justify;
+                  "
+                        >
+                            другим образом нарушать нормы законодательства, в том числе
+                            нормы международного права.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li title="7.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Сайт предоставляется Пользователю для личного некоммерческого
+                    использования.
+                </p>
+            </li>
+            <li title="7.4.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания оставляет за собой право ограничить доступ Пользователя к
+                    Сайту (или к определенным функциям Сайта, если это возможно
+                    технологически) с использованием его учетной записи или полностью
+                    заблокировать учетную запись Пользователя при неоднократном
+                    нарушении настоящего Соглашения, либо применить к Пользователю
+                    иные меры с целью соблюдения требований законодательства или прав
+                    и законных интересов третьих лиц.
+                </p>
+            </li>
+            <li title="7.5.">
+                <p
+                        style="
+                padding-top: 12pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    При использовании Сайта Пользователем Компания может:
+                </p>
+                <ol id="l14">
+                    <li title="7.5.1.">
+                        <p
+                                style="
+                    padding-top: 11pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            временно или полностью останавливать работу Сайта, в любое
+                            время и без предварительного уведомления Пользователя об этом.
+                            Остановка работы может произойти, в том числе, в случае
+                            проведения профилактических работ или в случае наступления
+                            обстоятельств непреодолимой силы, а также аварий или сбоев в
+                            программно- аппаратных комплексах третьих лиц, сотрудничающих
+                            с Компанией, или действий третьих лиц, направленных на
+                            приостановку или прекращение функционирования Сайта;
+                        </p>
+                    </li>
+                    <li title="7.5.2.">
+                        <p
+                                style="
+                    padding-top: 12pt;
+                    padding-left: 11pt;
+                    padding-right: 56pt;
+                    text-indent: -6pt;
+                    text-align: justify;
+                  "
+                        >
+                            направлять Пользователю Сайта сообщения информационного и
+                            рекламного характера при наличии предварительного согласия
+                            Пользователя на получение указанных сообщений на адрес
+                            электронной почты, указанный при регистрации и/или посредством
+                            направления СМС-сообщений и/или пуш-уведомлений и/или в
+                            мессенджерах и/или иным образом на номер телефона, указанный
+                            Пользователем при регистрации.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li title="7.6.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Компания не может предоставить гарантий в отношении безошибочной и
+                    бесперебойной работы Сайта или отдельных её компонентов и/или
+                    функций на мобильном устройстве Пользователя, однако, Компания
+                    стремится к повышению качества Сайта.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="8.">
+        <h1
+                style="
+            padding-top: 11pt;
+            padding-left: 41pt;
+            padding-right: 56pt;
+            text-indent: -24pt;
+            text-align: left;
+          "
+        >
+            Иные положения
+        </h1>
+        <ol id="l15">
+            <li title="8.1.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Настоящее Соглашение составлено в соответствии с законодательством
+                    Российской Федерации. Вопросы, не урегулированные Соглашением,
+                    подлежат разрешению в соответствии с законодательством Российской
+                    Федерации.
+                </p>
+            </li>
+            <li title="8.2.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Настоящее Соглашение считается заключенным между Компанией и
+                    Пользователем с момента начала использования Вами Сайта в
+                    соответствии с п.п. 2.1-2.2 Соглашения.
+                </p>
+            </li>
+            <li title="8.3.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Сайт предоставляется на условиях «как есть» (as is). Компания не
+                    несет ответственности за какие-либо прямые или косвенные
+                    последствия какого-либо использования или невозможности
+                    использования Сайта и/или ущерб, причиненный Пользователю и/или
+                    третьим сторонам в результате какого-либо использования,
+                    неиспользования или невозможности использования Сайта или
+                    отдельных его компонентов и/или функций, в том числе из-за
+                    возможных ошибок или сбоев в
+                </p>
+                <p
+                        style="
+                padding-top: 3pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: 0pt;
+                text-align: left;
+              "
+                >
+                    работе программно-аппаратных средств, за исключением случаев,
+                    прямо предусмотренных законодательством и соглашениями Компании с
+                    Пользователями.
+                </p>
+            </li>
+            <li title="8.4.">
+                <p
+                        style="
+                padding-top: 11pt;
+                padding-left: 41pt;
+                padding-right: 56pt;
+                text-indent: -36pt;
+                text-align: justify;
+              "
+                >
+                    Настоящее Соглашение составлено на русском языке и в некоторых
+                    случаях может быть предоставлено Пользователю для ознакомления на
+                    другом языке. В случае расхождения русскоязычной версии Соглашения
+                    и версии Соглашения на ином языке, применяются положения
+                    русскоязычной версии настоящего Соглашения.
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li title="9.">
+        <h1
+                style="
+            padding-top: 11pt;
+            padding-left: 5pt;
+            padding-right: 56pt;
+            text-indent: 11pt;
+            line-height: 186%;
+            text-align: left;
+          "
+        >
+            Информация о Компании: ПАО «Корпоративный центр ИКС 5»
+        </h1>
+    </li>
+</ol>
+<p
+        style="
+        padding-top: 1pt;
+        padding-left: 5pt;
+
+        text-indent: 0pt;
+        text-align: left;
+      "
+>
+    ОГРН 1247700463911
+</p>
+<p style="padding-left: 5pt; text-indent: 0pt; text-align: left">
+    Адрес: 109029 г. Москва, ул. Средняя Калитниковская, д.28, стр.4 Телефон;
+    факс: +7(495)662-88-88
+</p>
+<p
+        style="
+        padding-left: 5pt;
+        text-indent: 0pt;
+        line-height: 14pt;
+        text-align: left;
+      "
+>
+    Дата публикации: 30 октября 2024 г.
+</p>
+<p
+        style="
+        padding-left: 5pt;
+        text-indent: 0pt;
+        line-height: 14pt;
+        text-align: left;
+      "
+>
+    Дата вступления в силу: 30 октября 2024 г.
+</p>
+</body>
+</html>
+R"�L      h��h��H�ۦh�T�   T    O^partitionKey=%28https%2Cx5.ru%29,:https://id.x5.ru/viewer/user_agreement_x5id.html strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Sat, 18 Oct 2025 04:43:05 GMT
+Content-Type: text/html
+Content-Length: 97504
+Last-Modified: Thu, 16 Oct 2025 11:25:20 GMT
+ETag: "68f0d620-17ce0"
+Accept-Ranges: bytes
+ original-response-headers Date: Sat, 18 Oct 2025 04:43:05 GMT
+Content-Type: text/html
+Content-Length: 97504
+Last-Modified: Thu, 16 Oct 2025 11:25:20 GMT
+Connection: keep-alive
+ETag: "68f0d620-17ce0"
+Accept-Ranges: bytes
+ ctid 1 uncompressed-len 0 net-response-time-onstart 38 net-response-time-onstop 45  |�
