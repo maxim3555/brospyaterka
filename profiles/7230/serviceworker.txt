@@ -1,0 +1,13 @@
+9
+
+https://www.googletagmanager.com/static/service_worker
+https://www.googletagmanager.com/static/service_worker/5a20/sw.js?origin=https%3A%2F%2Fott.x5club.ru
+false
+{a0e78080-d751-4cec-be43-05b61962d0d8}
+1
+1761029784160670
+1761029784161399
+1761029784147049
+0
+true
+#

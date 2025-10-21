@@ -83,7 +83,7 @@ async def run_profile(firefox_profile_path):
             page = await context.new_page()
 
 
-            await page.goto('https://gp.x5.ru/luckydice')
+            await page.goto('https://lp.5ka.ru')
             time.sleep(35554)
 #нажать на кубик
             await search_element_xpath(page, '//html/body/div/div/div/button[2]/picture', 5)
